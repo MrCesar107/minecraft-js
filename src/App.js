@@ -4,6 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { Ground } from "./components/Ground";
 import { Player } from "./components/Player";
 import { FPC } from "./components/FPC";
+import { Cubes } from "./components/Cubes";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <FPC />
         <Physics>
           <Player />
+          <Cubes />
           <Ground />
         </Physics>
       </Canvas>
